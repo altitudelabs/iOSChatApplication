@@ -16,6 +16,12 @@
 		D683F7671C7AA95D00B5817F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D683F7651C7AA95D00B5817F /* LaunchScreen.storyboard */; };
 		D683F7721C7AA95D00B5817F /* iOSChatApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D683F7711C7AA95D00B5817F /* iOSChatApplicationTests.m */; };
 		D683F77D1C7AA95D00B5817F /* iOSChatApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D683F77C1C7AA95D00B5817F /* iOSChatApplicationUITests.m */; };
+		D683F78D1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D683F78B1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.m */; };
+		D683F78E1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D683F78C1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.xib */; };
+		D683F7921C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D683F7901C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.m */; };
+		D683F7931C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D683F7911C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.xib */; };
+		D683F7961C7AAEFC00B5817F /* ChatroomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D683F7951C7AAEFC00B5817F /* ChatroomTableViewCell.m */; };
+		D69AD3571CA28E3F00FD0226 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = D69AD3561CA28E3F00FD0226 /* Message.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,16 @@
 		D683F7781C7AA95D00B5817F /* iOSChatApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSChatApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D683F77C1C7AA95D00B5817F /* iOSChatApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSChatApplicationUITests.m; sourceTree = "<group>"; };
 		D683F77E1C7AA95D00B5817F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D683F78A1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatroomIncomingTableViewCell.h; sourceTree = "<group>"; };
+		D683F78B1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatroomIncomingTableViewCell.m; sourceTree = "<group>"; };
+		D683F78C1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatroomIncomingTableViewCell.xib; sourceTree = "<group>"; };
+		D683F78F1C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatroomOutgoingTableViewCell.h; sourceTree = "<group>"; };
+		D683F7901C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatroomOutgoingTableViewCell.m; sourceTree = "<group>"; };
+		D683F7911C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatroomOutgoingTableViewCell.xib; sourceTree = "<group>"; };
+		D683F7941C7AAEFC00B5817F /* ChatroomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatroomTableViewCell.h; sourceTree = "<group>"; };
+		D683F7951C7AAEFC00B5817F /* ChatroomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatroomTableViewCell.m; sourceTree = "<group>"; };
+		D69AD3551CA28E3F00FD0226 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		D69AD3561CA28E3F00FD0226 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,8 @@
 		D683F7531C7AA95C00B5817F /* iOSChatApplication */ = {
 			isa = PBXGroup;
 			children = (
+				D69AD3591CA28F6100FD0226 /* View */,
+				D69AD3581CA28F5600FD0226 /* Model */,
 				D683F7571C7AA95C00B5817F /* AppDelegate.h */,
 				D683F7581C7AA95C00B5817F /* AppDelegate.m */,
 				D683F75A1C7AA95C00B5817F /* ViewController.h */,
@@ -141,6 +159,30 @@
 				D683F77E1C7AA95D00B5817F /* Info.plist */,
 			);
 			path = iOSChatApplicationUITests;
+			sourceTree = "<group>";
+		};
+		D69AD3581CA28F5600FD0226 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D69AD3551CA28E3F00FD0226 /* Message.h */,
+				D69AD3561CA28E3F00FD0226 /* Message.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D69AD3591CA28F6100FD0226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D683F7941C7AAEFC00B5817F /* ChatroomTableViewCell.h */,
+				D683F7951C7AAEFC00B5817F /* ChatroomTableViewCell.m */,
+				D683F78F1C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.h */,
+				D683F7901C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.m */,
+				D683F7911C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.xib */,
+				D683F78A1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.h */,
+				D683F78B1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.m */,
+				D683F78C1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D683F7671C7AA95D00B5817F /* LaunchScreen.storyboard in Resources */,
+				D683F7931C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.xib in Resources */,
 				D683F7641C7AA95D00B5817F /* Assets.xcassets in Resources */,
+				D683F78E1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.xib in Resources */,
 				D683F75F1C7AA95C00B5817F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +318,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D683F75C1C7AA95C00B5817F /* ViewController.m in Sources */,
+				D69AD3571CA28E3F00FD0226 /* Message.m in Sources */,
 				D683F7591C7AA95C00B5817F /* AppDelegate.m in Sources */,
 				D683F7621C7AA95D00B5817F /* iOSChatApplication.xcdatamodeld in Sources */,
+				D683F7961C7AAEFC00B5817F /* ChatroomTableViewCell.m in Sources */,
 				D683F7561C7AA95C00B5817F /* main.m in Sources */,
+				D683F7921C7AAEE400B5817F /* ChatroomOutgoingTableViewCell.m in Sources */,
+				D683F78D1C7AAEDE00B5817F /* ChatroomIncomingTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -405,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,9 +466,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSChatApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.altitudelabs.iOSChatApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -429,9 +479,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSChatApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.altitudelabs.iOSChatApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -502,6 +554,7 @@
 				D683F7831C7AA95D00B5817F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D683F7841C7AA95D00B5817F /* Build configuration list for PBXNativeTarget "iOSChatApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +563,7 @@
 				D683F7861C7AA95D00B5817F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D683F7871C7AA95D00B5817F /* Build configuration list for PBXNativeTarget "iOSChatApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +572,7 @@
 				D683F7891C7AA95D00B5817F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

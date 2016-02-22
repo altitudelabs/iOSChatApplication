@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ChatroomViewController.h
 //  iOSChatApplication
 //
 //  Created by Altitude Labs on 22/2/2016.
